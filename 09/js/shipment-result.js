@@ -1,9 +1,5 @@
 	var check = document.querySelector("#shippingInfo");  // 체크박스의 id는 shippingInfo
 
-    var nameInfo = document.querySelector("#billingName").value;  // 주문 정보 - 이름
-    var telInfo = document.querySelector("#billingTel").value;  // 주문 정보 - 전화번호  
-    var addrInfo = document.querySelector("#billingAddr").value;  // 주문 정보 - 주소
-
 	check.addEventListener("click", function() {   // check 요소에 click 이벤트가 발생했을 때 실행할 함수
 		var nameInfo = document.querySelector("#billingName").value;  // 주문 정보 - 이름
 		var telInfo = document.querySelector("#billingTel").value;  // 주문 정보 - 전화번호  
